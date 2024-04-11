@@ -1,0 +1,261 @@
+{
+    "Tomato" : 
+    {
+        "0": 
+        {
+            "title": "Tomato Yellow Leaf Curl Virus",
+            "def":"Tomato Yellow Leaf Curl Virus is a highly destructive disease affecting tomatoes. It is transmitted by whiteflies, leading to curled and yellowed leaves, stunted growth, and reduced fruit yield. TYLCV poses a significant threat to tomato crops, causing substantial economic losses. In India, states with warm climates, such as Maharashtra and Karnataka, often experience higher incidences of this virus."
+        
+        },
+        
+        "1":
+        {
+            "title": "Tomato Mosaic Virus",
+            "def":"Tomato Mosaic Virus is a common pathogen causing mosaic patterns on tomato leaves, affecting plant vigor and fruit quality. While it might not be as devastating as some other diseases, its widespread occurrence can impact overall crop productivity. In India, states like Uttar Pradesh and Punjab are known to face challenges from Tomato Mosaic Virus."
+        
+        },
+        
+        "2":
+        {
+            "title": "Tomato Target Spot",
+            "def":"Target Spot is a fungal disease characterized by circular lesions on tomato leaves. Although not as severe as some viral infections, it can lead to defoliation and reduced yield. States like Gujarat and Rajasthan often experience higher incidences of Target Spot in their tomato crops."
+        
+        },
+        
+        "3":
+        {
+            "title": "Spider mites",
+            "def":"Spider mites are tiny arachnids that can cause significant damage to tomato plants by sucking out cell contents. Their presence can lead to yellowed leaves and reduced photosynthesis. In India, states like Andhra Pradesh and Tamil Nadu are susceptible to Two-spotted Spider Mite infestations."
+        
+        },
+        
+        "4":
+        {
+            "title": "Septoria Leaf Spot",
+            "def":"Septoria Leaf Spot is a fungal disease causing small dark spots on tomato leaves, eventually leading to leaf yellowing and defoliation. While not as lethal as some viruses, it can affect fruit quality. States such as Haryana and Madhya Pradesh may face challenges associated with Septoria Leaf Spot."
+        
+        
+        },
+        
+        "5":
+        {
+            "title": "Leaf Mold",
+            "def":"Leaf Mold is a fungal disease characterized by yellowing of the lower leaves and the development of mold on the leaf surface. While it doesn't usually lead to significant yield losses, it can impact fruit quality. In India, states with high humidity, such as West Bengal and Odisha, may see occurrences of Leaf Mold."
+        
+        
+        },
+        
+        "6":
+        {
+            "title": "Late Blight",
+            "def":"Late Blight is a devastating fungal disease that affects both leaves and fruits, causing dark lesions and decay. It was responsible for the historic Irish Potato Famine. In India, states like Himachal Pradesh and Jammu & Kashmir may face challenges from Late Blight, especially during periods of high humidity and rainfall."
+        
+        
+        },
+        
+        "7":
+        {
+            "title": "Healthy tomatoes",
+            "def":"Healthy tomatoes exhibit vigorous growth, green foliage, and vibrant fruits. While various diseases can threaten tomato crops, proper cultivation practices and disease management can help maintain the health of tomatoes. Farmers in states like Punjab and Haryana often strive to maintain optimal conditions for healthy tomato growth."
+        
+        },
+        
+        "8":
+        {
+            "title": "Early Blight",
+            "def":"Early Blight is a fungal disease that affects tomato plants, causing dark concentric lesions on leaves. It can lead to defoliation and reduced fruit yield. States with warm and humid conditions, such as Karnataka and Tamil Nadu, may experience higher incidences of Early Blight in tomato crops."
+        
+        },
+        
+        "9":
+        {
+            "title": "Bacterial Spot",
+            "def":"Bacterial Spot is a bacterial disease affecting tomatoes, leading to dark lesions on leaves and fruit. It can result in defoliation and reduced fruit quality. In India, states like Andhra Pradesh and Telangana may face challenges from Bacterial Spot, especially in conditions of high humidity and rainfall."
+        
+        }
+    },
+
+    "Grape":
+    {
+        "0":
+        {
+        "title": "Grape Black Rot",
+        "def": " Grape Black Rot, caused by the fungus Guignardia bidwellii, is a prevalent grapevine disease. It primarily affects the fruit, causing black lesions, shriveling, and premature dropping. Warm and humid conditions favor the disease, making it a concern in regions with such climates. In India, Grape Black Rot can be more rampant in states with tropical and subtropical climates, such as Maharashtra and Karnataka."
+
+        },
+
+        "1":
+        {
+        "title": "Grape Esca (Black Measles) ",
+        "def":"Grape Esca, also known as Black Measles, is a complex disease involving various fungi. It manifests through leaf discoloration, shoot dieback, and black streaks in the wood. Esca is a significant concern globally, impacting vineyards in multiple wine-producing regions. In India, it may be more prevalent in areas with temperate climates, such as parts of Himachal Pradesh and Jammu & Kashmir."
+        },
+
+        "2":
+        {
+        "title":"Grape Healthy",
+        "def":"Healthy grape plants showcase vibrant green leaves, well-formed clusters, and firm, plump grapes. The foliage is free from discoloration, wilting, or signs of diseases like black rot or powdery mildew. In India, states with diverse climates, such as Maharashtra, Karnataka, and Andhra Pradesh, offer favorable conditions for the healthy growth of grape plants."
+
+        },
+
+        "3":
+        {
+        "title":"Grape Leaf Blight (Isariopsis Leaf Spot)",
+        "def":"  Grape Leaf Blight, caused by the fungus Isariopsis viticola, affects grape leaves, leading to circular lesions and eventual defoliation. The disease thrives in warm and humid conditions. In India, Grape Leaf Blight might be more rampant in regions with monsoon-influenced climates, like the western and southern parts of the country, including states like Goa and Kerala."
+
+        }
+
+    },
+    "Potato":
+    {
+        "0":
+        {
+        "title":"Potato Early Blight",
+        "def":"Early Blight of potatoes is caused by the fungus Alternaria solani. This disease affects the foliage, causing dark, concentric lesions on the leaves. Warm and humid conditions favor the development of Early Blight. In India, states with tropical and subtropical climates, such as West Bengal and Punjab, may experience a higher incidence of Potato Early Blight."
+
+        },
+
+        "1":
+        {
+        "title":"Potato Healthy",
+        "def":"Healthy potato plants in India boast lush green foliage, robust stems, and well-developed tubers. Optimal conditions for their well-being are often found in states like West Bengal, Punjab, and Uttar Pradesh, where the climate is conducive to potato cultivation."
+
+
+        },
+
+        "2":
+        {
+        "title":"Potato Late Blight",
+        "def":"Potato Late Blight, caused by the oomycete pathogen Phytophthora infestans, is a notorious disease globally. It affects both foliage and tubers, leading to rapidly spreading water-soaked lesions. Late Blight thrives in cool and moist conditions. In India, regions with cooler temperatures and higher humidity, such as parts of Himachal Pradesh and Jammu & Kashmir, may be more susceptible to Potato Late Blight."
+
+        }
+
+    },
+    "Peach":
+    {
+        "0":
+        {
+        "title":"Peach Bacterial Spot",
+        "def":"Peach Bacterial Spot, caused by the bacterium Xanthomonas arboricola pv. pruni, is another significant disease affecting peach trees. It manifests as small, dark lesions on leaves, fruit, and twigs. Bacterial Spot thrives in warm and wet conditions. In India, states with humid subtropical climates, such as parts of West Bengal and Assam, may experience a higher incidence of Peach Bacterial Spot."
+
+        },
+
+        "1":
+        {
+        "title":"Peach Healthy",
+        "def":"Healthy peach trees in India exhibit lush green leaves, strong branches, and plump, flawless fruit. Ideal conditions for their well-being are often found in states like Himachal Pradesh, Jammu & Kashmir, and parts of Punjab, where the climate supports peach cultivation."
+
+        }
+    },
+    "Strawberry":
+    {
+        "0":
+        {
+        "title":"Strawberry Healthy",
+        "def":" Healthy strawberry plants in India boast lush green foliage, sturdy stems, and plump, blemish-free fruit. Ideal conditions for rampant strawberry growth are found in regions with temperate climates, including states like Himachal Pradesh, Jammu & Kashmir, and parts of Maharashtra."
+        },
+
+        "1":
+        {
+        "title":"Strawberry Leaf Scorch",
+        "def":"Strawberry Leaf Scorch, attributed to the bacterium Xylella fastidiosa, impacts strawberry plants, causing wilting, leaf scorching, and browning. This bacterial disease is transmitted by leafhoppers. In India, it may be more prevalent in warmer regions like Maharashtra and Karnataka."
+
+        }
+    },
+    "Pepper":
+    {
+        "0":
+        {
+        "title":"Pepper, Bacterial Spot",
+        "def":"Pepper and Bell Bacterial Spot is a bacterial disease affecting pepper plants, caused by Xanthomonas campestris pv. vesicatoria. It induces small, dark lesions on leaves, fruit, and stems. This bacterial spot is prevalent in regions with tropical and subtropical climates, such as Andhra Pradesh and Karnataka in India."
+
+        },
+
+        "1":
+        {
+        "title":"Pepper, Healthy",
+        "def":"Healthy pepper and bell plants boast vibrant green leaves, robust stems, and well-formed fruits. The foliage is free from discoloration, wilting, or signs of diseases like bacterial spot. In India, states with tropical and subtropical climates, such as Andhra Pradesh and Karnataka, provide favorable conditions for the healthy growth of pepper and bell plants."
+
+        }
+    },
+    "Apple":
+    {
+        "0":
+        {
+        "title":"Apple Scab",
+        "def":"Apple Scab is a fungal disease caused by Venturia inaequalis, affecting apple trees. It manifests as olive-green to black lesions on leaves, leading to defoliation and reduced fruit quality. This fungus thrives in humid conditions. In India, regions with temperate climates, such as parts of Himachal Pradesh and Jammu & Kashmir, may experience a higher incidence of Apple Scab."
+        },
+
+        "1":
+        {
+        "title":"Apple Black Rot",
+        "def":"Apple Black Rot, caused by the fungus Botryosphaeria obtusa, affects apples, causing brown to black lesions on fruit and cankers on branches. Warm and humid weather favors disease development. In India, states with subtropical climates, like Himachal Pradesh and parts of Punjab, may be more susceptible."
+
+
+        },
+
+        "2":
+        {
+        "title":"Cedar Apple Rust",
+        "def":"Cedar Apple Rust is a fungal disease caused by Gymnosporangium juniperi-virginianae, impacting both apple trees and juniper plants. It shows as orange lesions on apple leaves and fruit. In India, areas with diverse vegetation, like the western Himalayan region, may be at risk."
+
+        },
+
+        "3":
+        {
+        "title":"Apple Healthy",
+        "def":"Healthy apple trees present vibrant green leaves, robust branches, and well-formed, blemish-free fruit. The foliage is free from discoloration, wilting, or signs of diseases like apple scab or fire blight. In India, regions with temperate climates, including Himachal Pradesh, Jammu & Kashmir, and parts of Punjab, provide optimal conditions for the healthy growth of apple orchards."
+
+        }
+
+    },
+    "Cherry":
+    {
+        "0":
+        {
+        "title":"Cherry - Healthy",
+        "def":"Healthy cherry trees showcase lush green leaves, strong branches, and well-formed, unblemished fruit, including sour cherries. The foliage is free from discoloration, wilting, or signs of diseases like cherry leaf spot or powdery mildew. In India, regions with temperate climates, such as Himachal Pradesh, Jammu & Kashmir, and parts of Punjab, provide favorable conditions for the healthy growth of cherry orchards."
+
+        },
+
+
+        "1":
+        {
+        "title":"Cherry - Powdery Mildew",
+        "def":"Cherry Powdery Mildew is a fungal disease caused by Podosphaera spp., affecting various cherry varieties, including sour cherries. It presents as white, powdery growth on leaves, reducing photosynthesis and fruit quality. This mildew thrives in warm and dry conditions. In India, regions with temperate climates, such as parts of Himachal Pradesh and Jammu & Kashmir, may face challenges with Cherry Powdery Mildew."
+
+
+        }
+
+    },
+    "Corn":
+    {
+        "0":
+        {
+        "title":"Corn (Maize) - Cercospora Leaf Spot: Gray Leaf Spot",
+        "def":"Cercospora Leaf Spot, commonly known as Gray Leaf Spot, is a fungal disease affecting corn (maize) caused by Cercospora zeae-maydis. It manifests as small, rectangular lesions with a gray center and dark borders on the leaves. Warm and humid conditions contribute to its development. In India, regions with tropical climates, such as parts of Andhra Pradesh and Karnataka, may be susceptible."
+
+        },
+
+        "1":
+        {
+        "title":"Corn (Maize) - Common Rust",
+        "def":"Common Rust is a fungal disease caused by Puccinia sorghi, affecting corn (maize). It appears as reddish-brown pustules on both sides of the leaves. Common Rust thrives in warm and humid weather. In India, states with diverse climates, such as Maharashtra and Uttar Pradesh, may experience Common Rust."
+
+
+        },
+
+        "2":
+        {
+        "title":"Corn (Maize) - Healthy",
+        "def":"Healthy corn (maize) plants in India exhibit robust green leaves, sturdy stalks, and well-developed ears. Optimal conditions for their well-being are often found in states like Maharashtra, Karnataka, and Madhya Pradesh, where diverse climates support maize cultivation."
+
+        },
+
+        "3":
+        {
+        "title":"Corn (Maize) - Northern Leaf Blight",
+        "def":"Northern Leaf Blight, caused by the fungus Exserohilum turcicum, is a fungal disease affecting corn (maize). It leads to cigar-shaped lesions on leaves, reducing photosynthesis. Warm and humid conditions favor the disease. In India, states with diverse climates, such as Madhya Pradesh and Bihar, may face challenges with Northern Leaf Blight."
+
+        }
+    }
+}
