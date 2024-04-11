@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-krushi</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="../static/css/chat.css">
+</head>
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="../static/Images/logo.png" alt="e-krushi logo">
+                <div class="title">
+                    <h1>E-Krushi</h1>
+                    <p>कष्टकऱ्यांचे सहायक</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Image Analysis</h2>
+            <div class="select-container">
+                <label for="imageSelect">Select an option:</label>
+                <select id="imageSelect">
+                    <option value="default">Select an option</option>
+                    <option value="Tomato">Tomato</option>
+                    <option value="Pepper">Bell Pepper</option>
+                    <option value="Cherry">Cherry</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Corn">Corn</option>
+                    <option value="Grape">Grape</option>
+                    <option value="Peach">Peach</option>
+                    <option value="Potato">Potato</option>
+                    <option value="Strawberry">Strawberry</option>
+                </select>
+            </div>
+            <div class="image-analysis-container">
+                <div class="image-upload-container">
+                    <h3>Upload Image</h3>
+                    <label class="custom-file-input">
+                        <input type="file" id="uploadImage" name = "custom-file-input" accept="image/*" >
+                        Choose File
+                    </label>
+     
+                        <button class="custom-file-input" style="border-width: 0px;" onclick="uploadImage()">Analyse Image</button>
+                 
+                    <script>
+                        function uploadImage() {
+                            
+                            var fileInput = document.getElementById('uploadImage');
+                            var file = fileInput.files[0];
+                
+                            if (file) {
+                                var reader = new FileReader();
+                                reader.onload = function (e) {
+                                    var imageDataUrl = e.target.result;
+                
+                                    // Send the data URL to the server
+                                    fetch('/upload', {
+                                        method: 'POST',
+                                        headers: {
+                                            'Content-Type': 'application/x-www-form-urlencoded',
+                                        },
+                                        body: 'imageDataUrl=' + encodeURIComponent(imageDataUrl),
+                                    })
+                                     
+                                        .catch(error => console.error('Error:', error));
+                                };
+                
+                                reader.readAsDataURL(file);
+                               
+                            } else {
+                                alert('Please select an image file.');
+                            };
+                            
+                            function fetchIntegerFromPython() {
+                                fetch('/getanalysisandtitle')
+                                .then(response => response.json())
+                                .then(data => {
+                                    // Access the integer value from the JSON response
+                                    var integerFromPython = data.title;
+                                    var defn = data.def
+                                    
+                                    console.log("Value in script.js:", integerFromPython );
+                                    const analysis = "";
+                                    document.getElementById("disease").innerHTML = integerFromPython;
+                                    document.getElementById("analysisResult").textContent = defn;
+                                   
+                                })
+                                .catch(error => console.error('Error:', error));
+                }
+                       fetchIntegerFromPython();
+                        }
+                    </script>
+                    
+                
+                    <div class="image-preview">
+                        <img id="previewImage" src="" alt="">
+                    </div>
+                    
+                                        
+                </div>
+                <div class="analysis-container" id="analysisContainer">
+                    <h3 id = 'disease'>Analysis</h3>
+                 
+                  
+                    <div class="analysis-result" id = "analysisResult" >
+                        <p id = "para"></p>
+                    </div>
+                </div>
+            </div>
+      
+
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. I am a bot. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="../static/Images/chatbot.jpeg" style="width: 250px; height: auto;" /></button>
+        </div>
+    </div>
+
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="../static/js/app.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../static/js/script.js"></script>
+</div>
+</main>
+</body>
+</html>
