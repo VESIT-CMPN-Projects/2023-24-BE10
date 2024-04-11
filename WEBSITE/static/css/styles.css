@@ -1,0 +1,339 @@
+/* styles.css */
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/Background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+header {
+    background-color: #529604 !important; 
+    color: #fff;
+    padding: 0px 5px !important;
+    
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo p {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 5px 0;
+    color: #fff; /* Text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5; /* Light gray background color for containers */
+    color: #333; /* Text color for containers */
+
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.imageUpload {
+    display: flex;
+    align-items: center;
+}
+
+input[type="file"] {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+button#analyzeButton {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button#analyzeButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image: url('background1.avif'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the "Image Analysis" title */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 500px; /* Adjust the minimum height as needed */
+
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.image-analysis-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* To align containers at the top */
+}
+
+.image-upload-container,
+.analysis-container {
+    flex: 1; /* Grow to fill available space equally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9); /* Light gray background with transparency */
+    max-width: 800; /* Increase the max-width for the inner containers */
+    max-height: 1000px; /* Increase the max-height for the inner containers */
+
+}
+
+.image-upload-container {
+    margin-right: 20px; /* Add horizontal space between the containers */
+}
+
+h3 {
+    margin-top: 0;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.analysis-result {
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 100px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Hide the default image icon */
+#uploadImage::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.image-preview {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Show the uploaded image below the "Choose File" button and resize it to fit */
+#previewImage {
+    max-width: 100%;
+    height: auto;
+}
+/* Hide the default file input */
+.custom-file-input input[type="file"] {
+    display: none;
+}
+
+/* Style for the custom file input button */
+.custom-file-input {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.custom-file-input:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+.image-preview img {
+    max-width: 100%;
+    max-height: 300px; /* Adjust the maximum height as needed */
+    margin-top: 10px;
+}
+
+
+/* Change the background color to a clean green shade in the navbar */
+.navbar {
+    background-color: #529604; /* Clean green color */
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* Style for the added text below the title */
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0;
+    color: #fff; /* Text color */
+}
+
+.title p {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 5px 0;
+    color: #fff; /* Text color */
+}
+
+
+
+h2 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 20px;
+}
+
+/* Style for "Select an Option" */
+label[for="imageSelect"] {
+    font-family: 'Lato', sans-serif; 
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #333; /* Text color */
+    margin-right: 10px;
+}
+
+#imageSelect {
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Text color */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for "Upload Image Analysis" */
+.image-upload-container h3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 10px;
+}
+
+
+/* styles.css */
+
+/* Style for the welcome-content container */
+.welcome-content {
+    display: flex; /* Use flexbox to arrange containers horizontally */
+    justify-content: space-between; /* Distribute space evenly between containers */
+    gap: 20px; /* Add 20px space between containers */
+}
+
+/* Style for "Plant Health" container */
+.plant-health-container {
+    flex: 1; /* Distribute available space equally among containers */
+    background-color: #4CAF50; /* Green color for the container */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none; /* Remove underlines for the link */
+}
+
+.plant-health-container:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Style for "Plain Container" */
+.content-container.plain-container {
+    flex: 1; /* Distribute available space equally among containers */
+    background-color: #f1f1f1; /* Light gray background color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Style for "Chatbot" container */
+.content-container.chatbot-container {
+    flex: 1; /* Distribute available space equally among containers */
+    background-color: #3498db; /* Blue color for the container */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+

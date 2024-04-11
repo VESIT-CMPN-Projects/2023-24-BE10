@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header {
+    background-color: #529604 !important;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    flex-direction: column;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo .title {
+    margin-left: 150px;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+.center-wrapper img {
+    display: inline-block;
+    max-width: 250px; /* Ensure the image doesn't exceed its natural size */
+    height: auto; /* Maintain the image's aspect ratio */
+}
