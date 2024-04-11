@@ -1,0 +1,117 @@
+jessica/com/databinding/ActivityBellPepperBinding.java
+ jessica.com.databinding.ActivityBellPepperBinding
+jessica/com/Grape.java
+ jessica.com.Grape
+ jessica.com.Grape$1
+ jessica.com.Grape$2
+ jessica.com.Grape$3
+jessica/com/databinding/ActivityChatBinding.java
+ jessica.com.databinding.ActivityChatBinding
+jessica/com/SplashScreenTwo.java
+ jessica.com.SplashScreenTwo
+ jessica.com.SplashScreenTwo$1
+jessica/com/Apple.java
+ jessica.com.Apple
+ jessica.com.Apple$1
+ jessica.com.Apple$2
+ jessica.com.Apple$3
+jessica/com/databinding/ActivityPotatoBinding.java
+ jessica.com.databinding.ActivityPotatoBinding
+jessica/com/Chat.java
+ jessica.com.Chat
+ jessica.com.Chat$1
+ jessica.com.Chat$2
+jessica/com/BellPepper.java
+ jessica.com.BellPepper
+ jessica.com.BellPepper$1
+ jessica.com.BellPepper$2
+ jessica.com.BellPepper$3
+jessica/com/databinding/ActivityStrawberryBinding.java
+ jessica.com.databinding.ActivityStrawberryBinding
+jessica/com/databinding/ActivityPeachBinding.java
+ jessica.com.databinding.ActivityPeachBinding
+jessica/com/Message.java
+ jessica.com.Message
+jessica/com/databinding/ActivityMainBinding.java
+ jessica.com.databinding.ActivityMainBinding
+jessica/com/Strawberry.java
+ jessica.com.Strawberry
+ jessica.com.Strawberry$1
+ jessica.com.Strawberry$2
+ jessica.com.Strawberry$3
+jessica/com/ChatIntent.java
+ jessica.com.ChatIntent
+jessica/com/databinding/ActivitySplashScreenTwoBinding.java
+ jessica.com.databinding.ActivitySplashScreenTwoBinding
+jessica/com/databinding/ActivityCherryBinding.java
+ jessica.com.databinding.ActivityCherryBinding
+jessica/com/databinding/ActivityCornBinding.java
+ jessica.com.databinding.ActivityCornBinding
+jessica/com/databinding/ItemBotMessageBinding.java
+ jessica.com.databinding.ItemBotMessageBinding
+jessica/com/BuildConfig.java
+ jessica.com.BuildConfig
+jessica/com/Cherry.java
+ jessica.com.Cherry
+ jessica.com.Cherry$1
+ jessica.com.Cherry$2
+ jessica.com.Cherry$3
+jessica/com/databinding/ActivityGrapeBinding.java
+ jessica.com.databinding.ActivityGrapeBinding
+jessica/com/TomatoPlant.java
+ jessica.com.TomatoPlant
+ jessica.com.TomatoPlant$1
+ jessica.com.TomatoPlant$2
+ jessica.com.TomatoPlant$3
+jessica/com/SplashScreen.java
+ jessica.com.SplashScreen
+ jessica.com.SplashScreen$1
+ jessica.com.SplashScreen$1$1
+ jessica.com.SplashScreen$1$1$1
+jessica/com/databinding/ActivitySplashScreenBinding.java
+ jessica.com.databinding.ActivitySplashScreenBinding
+jessica/com/Peach.java
+ jessica.com.Peach
+ jessica.com.Peach$1
+ jessica.com.Peach$2
+ jessica.com.Peach$3
+jessica/com/MessageAdapter.java
+ jessica.com.MessageAdapter
+ jessica.com.MessageAdapter$MyViewHolder
+jessica/com/PlantHealth.java
+ jessica.com.PlantHealth
+ jessica.com.PlantHealth$1
+ jessica.com.PlantHealth$2
+ jessica.com.PlantHealth$3
+ jessica.com.PlantHealth$4
+ jessica.com.PlantHealth$5
+ jessica.com.PlantHealth$6
+ jessica.com.PlantHealth$7
+ jessica.com.PlantHealth$8
+ jessica.com.PlantHealth$9
+jessica/com/databinding/ActivityTomatoPlantBinding.java
+ jessica.com.databinding.ActivityTomatoPlantBinding
+jessica/com/databinding/ActivityPlantHealthBinding.java
+ jessica.com.databinding.ActivityPlantHealthBinding
+jessica/com/databinding/ChatItemBinding.java
+ jessica.com.databinding.ChatItemBinding
+jessica/com/Potato.java
+ jessica.com.Potato
+ jessica.com.Potato$1
+ jessica.com.Potato$2
+ jessica.com.Potato$3
+jessica/com/Corn.java
+ jessica.com.Corn
+ jessica.com.Corn$1
+ jessica.com.Corn$2
+ jessica.com.Corn$3
+jessica/com/databinding/ItemUserMessageBinding.java
+ jessica.com.databinding.ItemUserMessageBinding
+jessica/com/MainActivity.java
+ jessica.com.MainActivity
+ jessica.com.MainActivity$1
+ jessica.com.MainActivity$2
+jessica/com/databinding/ActivityAppleBinding.java
+ jessica.com.databinding.ActivityAppleBinding
+jessica/com/ChatBot.java
+ jessica.com.ChatBot
