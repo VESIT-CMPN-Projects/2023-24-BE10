@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#314E29"
+    tools:context=".Chat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_above"
+        android:background="#5D7D31"
+        android:text="Hi, I am a bot. How may I help you ?"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@+id/text_above"
+        android:layout_marginTop="0dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_text"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:id="@+id/bottom_layout">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/message_edit_text"
+            android:layout_centerInParent="true"
+            android:hint="Click to type"
+            android:padding="16dp"
+            android:textColor="#737373"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/rounded_corner"
+            />
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/send_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_send_24"
+            android:onClick="sendMessage"
+            android:background="?attr/selectableItemBackgroundBorderless"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
